@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студія</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -13,18 +19,14 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <header>
       <!-- Studio name -->
       <div class="container main-nav">
-        <a href="/" class="logo"><span class="web">Web</span>Studio</a>
+        <a href="./index.html" class="logo"
+          ><span class="web">Web</span>Studio</a
+        >
         <!-- Menu nav -->
         <nav>
           <ul class="site-nav">
@@ -62,34 +64,35 @@
         </div>
       </section>
       <!-- Charakteristics -->
-      <section class="section">
+      <section class="principles">
         <div class="container">
-          <ul class="section-list">
-            <li class="section-item">
-              <h2 class="seсtion-title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
-              <p class="sectiot-text">
-                Значимість цих проблем настільки очевидна, що реалізація
-                планових завдань.
+          <h2 class="visually-hidden">Принципи нашої роботи</h2>
+          <ul class="principles-list">
+            <li class="principles-item">
+              <h3 class="principles-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="principles-text">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
               </p>
             </li>
-            <li class="section-item">
-              <h2 class="seсtion-title">ПЛАНУВАННЯ</h2>
-              <p class="sectiot-text">
-                Так само консультація з широким активом значною мірою зумовлює.
-              </p>
-            </li>
-            <li class="section-item">
-              <h2 class="seсtion-title">ПУНКТУАЛЬНІСТЬ</h2>
-              <p class="sectiot-text">
+            <li class="principles-item">
+              <h3 class="principles-title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="principles-text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li class="section-item">
-              <h2 class="seсtion-title">УВАГА ДО ДЕТАЛЕЙ</h2>
-              <p class="sectiot-text">
-                Ідейні міркування, і навіть початок повсякденної роботи з
-                формування позиції.
+            <li class="principles-item">
+              <h3 class="principles-title">ПЛАНУВАННЯ</h3>
+              <p class="principles-text">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li class="principles-item">
+              <h3 class="principles-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="principles-text">
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
               </p>
             </li>
           </ul>
@@ -122,45 +125,57 @@
       </section>
 
       <!-- Our team -->
-      <section class="tim">
+      <section class="team">
         <div class="container">
-          <h2 class="tim-title">Наша команда</h2>
-          <ul class="tim-list">
+          <h2 class="team-title">Наша команда</h2>
+          <ul class="team-list">
             <li class="members">
               <img
+                class="members-photo"
                 src="./images/img-1-1.jpg"
                 width="270"
                 alt="Фотографія Ігоря Дем'яненко"
               />
-              <h3 class="tim-member">Ігор Дем'яненко</h3>
-              <p class="tim-member-profesion">Product Designer</p>
+              <div class="team-text">
+                <h3 class="team-member">Ігор Дем'яненко</h3>
+                <p class="team-member-profesion">Product Designer</p>
+              </div>
             </li>
             <li class="members">
               <img
+                class="members-photo"
                 src="./images/img-2-2.jpg"
                 width="270"
                 alt="Фотографія Ольги Рєпіної"
               />
-              <h3 class="tim-member">Ольга Рєпіна</h3>
-              <p class="tim-member-profesion">Frontend Developer</p>
+              <div class="team-text">
+                <h3 class="team-member">Ольга Рєпіна</h3>
+                <p class="team-member-profesion">Frontend Developer</p>
+              </div>
             </li>
             <li class="members">
               <img
+                class="members-photo"
                 src="./images/img-3-3.jpg"
                 width="270"
                 alt="Фотографія Миколи Тарасова"
               />
-              <h3 class="tim-member">Микола Тарасов</h3>
-              <p class="tim-member-profesion">Marketing</p>
+              <div class="team-text">
+                <h3 class="team-member">Микола Тарасов</h3>
+                <p class="team-member-profesion">Marketing</p>
+              </div>
             </li>
-            <li class="members"> 
+            <li class="members">
               <img
+                class="members-photo"
                 src="./images/img-4-4.jpg"
                 width="270"
                 alt="Фотографія Михайла Єрмакова"
               />
-              <h3 class="tim-member">Михайло Єрмаков</h3>
-              <p class="tim-member-profesion">UI Designer</p>
+              <div class="team-text">
+                <h3 class="team-member">Михайло Єрмаков</h3>
+                <p class="team-member-profesion">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -169,14 +184,14 @@
     <footer class="footer">
       <!-- Address -->
       <div class="container">
-        <a href="/" class="footer-logo"><span class="web">Web</span>Studio</a>
+        <a href="./index.html" class="footer-logo"><span class="web">Web</span>Studio</a>
 
         <address class="footer-addres">
           <ul>
-            <li>
+            <li class="addres-text">
               <a href="" class="addres">м. Київ, пр-т Лесі Українки, 26</a>
             </li>
-            <li>
+            <li class="addres-text">
               <a
                 href="mailto:info@devstudio.com"
                 target="_blank"
@@ -184,7 +199,7 @@
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="addres-text">
               <a
                 href="tel:+380961111111"
                 target="_blank"
