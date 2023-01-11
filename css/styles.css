@@ -152,8 +152,8 @@ ul {
   margin-right: 30px;
 }
 .principles-title {
-  margin-top: 10px;
-  margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 700;
   line-height: 1.1;
@@ -161,6 +161,7 @@ ul {
 }
 .principles-text {
   line-height: 1.7;
+ margin: 0;
 }
 .list-img{
   
@@ -170,7 +171,7 @@ ul {
 .applications{
 padding-bottom: 94px;
 }
-.list-applications{
+.list-applications-img{
   display: block;
 }
 .list-applications + .list-applications{
@@ -208,7 +209,8 @@ padding-bottom: 94px;
   margin-left: 30px;
 }
 .team-text{
-  padding: 30px 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team-title{
   margin-top: 0;
@@ -238,8 +240,8 @@ padding-bottom: 94px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.addres-text{
-  margin-bottom: 9px;
+.addres-text + .addres-text {
+  margin-top: 9px;
 }
 .addres{
   line-height: 1.7;
@@ -294,7 +296,6 @@ padding-bottom: 94px;
   text-align: center;
   padding: 6px 22px;
   border-radius: 4px;
-  margin-bottom: 16px;
   background-color: var(--buttons-portfolio-color);
   color: var(--title-text-color);
   font-style: normal;
